@@ -105,7 +105,7 @@ int main(){
         else if (decision == "2")
         {
             // set of words to check from exercise 3.4.3
-            std::vector<std::string> words = {"abababaab", " aaaaaa", "abbaabb"};
+            std::vector<std::string> words = {"abababaab", "aaaaaa", "abbaabb"};
             for (std::string word: words){
                 //Getting the vector of integers from the function
                 failureSpotsKMP = findFailureSpotsKMP(word);
