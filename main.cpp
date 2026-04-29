@@ -85,7 +85,7 @@ int main(){
         std::cout << "Ingrese su opcion: ";
         std::cin >> decision;
         std::cin.ignore(std::numeric_limits<std::streamsize>::max(), '\n');
-        std::cout << "" << std::endl;
+        std::cout << std::endl;
 
     
         if(decision == "1"){
@@ -99,7 +99,7 @@ int main(){
         //printing result
         std::cout << "Esta es la Palabra " << input << " Procesada por el algoritmo KMP" << std::endl;
         printKMP(failureSpotsKMP, input);
-        std::cout << "" << std::endl;
+        std::cout << std::endl;
         }
         else if (decision == "2")
         {
@@ -111,7 +111,7 @@ int main(){
                 //printing results
                 std::cout << "Esta es la Palabra " << word << " Procesada por el algoritmo KMP" << std::endl;   
                 printKMP(failureSpotsKMP, word);  
-                std::cout << "" << std::endl;       
+                std::cout << std::endl;       
             }   
         }
         else{
