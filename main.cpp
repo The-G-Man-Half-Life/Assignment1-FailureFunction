@@ -75,8 +75,7 @@ int main(){
         //stopping the program for a bit to execute next line
         std::cout << "Ingrese enter para continuar";
         std::cin.ignore(std::numeric_limits<std::streamsize>::max(), '\n');
-        std::cin.get();
-        std::cout << "" << std::endl;
+        std::cout << std::endl;
 
         //showing menu and receiving decision
         std::cout << "Algoritmo KMP" << std::endl;
